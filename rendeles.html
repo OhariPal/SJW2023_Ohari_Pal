@@ -38,18 +38,47 @@
 	</nav>
 
 	<main class="container">
-		<form>
-			<div class="form-row">
-				<div class="col">
-					<input type="text" class="form-control" placeholder="First name">
+		<div id="wrapper">
+			<form>
+				<div class="form-row">
+					<div class="col">
+						<label for="dsz">Darabszám</label>
+						<input type="number" class="form-control" id="dsz" min="0">
+					</div>
 				</div>
-			</div>
-			<div class="form-row">
-				<div class="col">
-					<input type="text" class="form-control" placeholder="Last name">
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="cs1">
+					<label class="form-check-label" for="cs1">
+						Sajt
+					</label>
 				</div>
-			</div>
-		</form>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="cs2">
+					<label class="form-check-label" for="cs2">
+						Sonka
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="cs3">
+					<label class="form-check-label" for="cs3">
+						Kukorica
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="cs4">
+					<label class="form-check-label" for="cs4">
+						Gomba
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="cs5">
+					<label class="form-check-label" for="cs5">
+						Chili paprika
+					</label>
+				</div>
+				<button type="submit" class="btn btn-success w-100">Megrendelem</button>
+			</form>
+		</div>
 	</main>
 
 
