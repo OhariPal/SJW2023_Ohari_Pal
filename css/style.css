@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+body {
+	background-image: url("../img/bg_pizza.jpg");
+	background-position-y: center;
+	background-position-x: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav,
+footer {
+	background-color: darkred;
+}
+
+h1,
+h2 {
+	font-family: 'Cabin Sketch', cursive;
+	color: olive;
+}
+
+h1 {
+	font-size: 7em;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+@media all and (max-width: 768px) {
+	h1 {
+		font-size: 50px;
+	}
+}
+
+#napolyiul {
+	list-style-image: url("../img/pizza_icon.png");
+}
+
+#napolyiul li {
+	height: 30px;
+}
+
+.pizzafajta {
+	color: darkgreen;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p {
+	text-indent: 15px;
+}
+
+#keret {
+	border: 5px double green;
+	background-color: lightyellow;
+}
+
+.img-thumbnail {
+	box-shadow: 2px 2px 5px green;
+}
+
+#pizzakep {
+	margin: 1 auto;
+}
+
+#portalbakep {}
+
+footer a {
+	color: white;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 5px;
+}
+
+footer a:hover {
+	background-color: black;
+}
+
+#keret {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#felsorolas {
+	width: 85%;
+	margin: 0 auto;
+}
